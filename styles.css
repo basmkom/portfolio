@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 4cm;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 8cm); /* Subtracting the total padding from the height */
+}
+
+.welcome-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.skip-btn {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.login-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.login-box p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #aaa;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.social-login {
+    margin: 20px 0;
+}
+
+.social-login span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link span {
+    color: #aaa;
+}
+
+.footer-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-section">
+            <h1>Welcome Back .!</h1>
+            <a href="#" class="skip-btn">Skip the lag ?</a>
+        </div>
+        <div class="login-section">
+            <div class="login-box">
+                <h2>Login</h2>
+                <p>Glad you're back.!</p>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <input type="text" placeholder="Username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" name="password" id="password" required>
+                        <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                    </div>
+                    <div class="form-group remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                    <a href="#" class="forgot-password">Forgot password ?</a>
+                </form>
+                <div class="social-login">
+                    <span>Or</span>
+                    <div class="social-icons">
+                        <a href="#"><img src="google-icon.png" alt="Google"></a>
+                        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+                    </div>
+                </div>
+                <div class="signup-link">
+                    <span>Don't have an account ? <a href="#">Signup</a></span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Support</a>
+                    <a href="#">Customer Care</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
